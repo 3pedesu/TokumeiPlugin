@@ -1,0 +1,9 @@
+name: TokumeiPlugin
+version: 0.0.2
+main: sanpe.plugin.tokumeiplugin.TokumeiPlugin
+commands:
+   tokumei:
+      description: This is a demo command.
+      usage: /<command> [player]
+      permission: tokumeiplugin.tokumei
+      permission-message: You don't have <permission>
