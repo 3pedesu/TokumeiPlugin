@@ -1,9 +1,9 @@
 name: TokumeiPlugin
-version: 0.0.2
+version: 0.0.1
 main: sanpe.plugin.tokumeiplugin.TokumeiPlugin
 commands:
    tokumei:
-      description: This is a demo command.
-      usage: /<command> [player]
+      description: チャットを匿名化
+      usage: "Usage: /tokumei [start|stop]"
       permission: tokumeiplugin.tokumei
       permission-message: You don't have <permission>
